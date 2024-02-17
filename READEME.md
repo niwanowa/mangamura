@@ -1,9 +1,11 @@
 # niwanowa-mangamura
 
+自炊鯖用スクリプトと自炊鯖
+
 ## s3へデプロイ
 
 ``` bash
-aws s3 sync /mnt/d/dev/mangamura s3://mangamura
+aws s3 sync /mnt/d/dev/mangamura/mangamura s3://mangamura
 ```
 
 ## kindle整形
